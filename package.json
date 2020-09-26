@@ -1,0 +1,14 @@
+{
+  "name": "fetch-word-lambda",
+  "version": "1.0.0",
+  "description": "Test of AWS lambda",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh ./aws-config/build.sh",
+    "create": "sh ./aws-config/create.sh",
+    "update": "sh ./aws-config/update.sh",
+    "invoke": "sh ./aws-config/invoke.sh"
+  },
+  "author": "Steph0",
+  "license": "MIT"
+}
