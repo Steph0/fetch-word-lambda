@@ -53,10 +53,15 @@ jspm_packages/
 .yarn/install-state.gz
 .pnp.*
 
-# Custom definitions
+# Terraform
+.terraform/
+*.tfstate*
+terraform/target/*.zip
+
+# Manual delivery
 # invoke.sh logs
 invoke.log
 # NPM scripts
 function.zip
-# Data that must remain local
+# Data that MUST remain local
 accountid
